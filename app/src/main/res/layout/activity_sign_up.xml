@@ -34,11 +34,12 @@
             android:background="@drawable/edittext_background"
             android:textSize="21sp"
             android:padding="10dp"
+            android:textColor="@color/white"
             android:inputType="textPersonName"
             android:layout_marginTop="40dp"
             android:layout_marginEnd="15dp"
             android:layout_marginStart="15dp"
-            android:textColorHint="#0D0C0C"/>
+            android:textColorHint="#fff"/>
 
         <EditText
             android:id="@+id/userEmail"
@@ -52,7 +53,7 @@
             android:layout_marginTop="40dp"
             android:layout_marginEnd="15dp"
             android:layout_marginStart="15dp"
-            android:textColorHint="#0D0C0C"/>
+            android:textColorHint="#fff"/>
 
         <EditText
             android:id="@+id/userPhone"
@@ -66,7 +67,7 @@
             android:layout_marginTop="40dp"
             android:layout_marginEnd="15dp"
             android:layout_marginStart="15dp"
-            android:textColorHint="#0D0C0C"/>
+            android:textColorHint="#fff"/>
 
         <EditText
             android:id="@+id/password"
@@ -80,7 +81,7 @@
             android:layout_marginTop="40dp"
             android:layout_marginEnd="15dp"
             android:layout_marginStart="15dp"
-            android:textColorHint="#0D0C0C"/>
+            android:textColorHint="#fff"/>
 
         <Button
             android:id="@+id/register"
@@ -101,14 +102,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Already Registered?"
-                android:textSize="15sp"/>
+                android:textColor="#fff"
+                android:textSize="20sp"/>
 
             <TextView
                 android:id="@+id/signIn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" Sign In"
-                android:textSize="18sp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
                 android:textStyle="bold"/>
         </LinearLayout>
 
@@ -117,6 +120,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:indeterminateTint="#fff"
             android:visibility="invisible"/>
 
     </LinearLayout>
